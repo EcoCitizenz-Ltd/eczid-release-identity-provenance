@@ -1,0 +1,10 @@
+ECZ-ID GitHub Actions — Proprietary License
+Copyright (c) 2026 EcoCitizenz. All rights reserved.
+
+These Actions are made available free of charge for installation and use through GitHub and compatible GitHub Actions workflows.
+
+Permission is granted to use the distributed Action for its intended purpose. The source and distributed implementation remain proprietary to EcoCitizenz and may not be republished, sold, sublicensed or used to create a competing derivative distribution without prior written permission.
+
+THE ACTIONS ARE PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED. ECZ-ID observations do not constitute a safety, certification, compliance or approval decision.
+
+Licensing enquiries: legal@ecocitizenz.com

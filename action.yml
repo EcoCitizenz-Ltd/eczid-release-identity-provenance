@@ -1,0 +1,50 @@
+name: "ECZ-ID Release Identity & Provenance"
+description: "Connect GitHub-native provenance/SBOM verification facts to optional ECZ-ID machine identity without generating attestations or writing truth."
+author: EcoCitizenz Ltd
+branding:
+  icon: shield
+  color: green
+inputs:
+  release-ref:
+    description: "Optional release/tag reference; defaults to GITHUB_REF_NAME."
+    required: false
+  artifact-locator:
+    description: "Optional artifact/package locator."
+    required: false
+  subject-digest:
+    description: "Optional SHA-256 subject digest."
+    required: false
+  provenance-status:
+    description: "VERIFIED | NOT_VERIFIED | NOT_CHECKED | NOT_AVAILABLE."
+    required: false
+    default: "NOT_CHECKED"
+  sbom-status:
+    description: "VERIFIED | NOT_VERIFIED | NOT_CHECKED | NOT_AVAILABLE."
+    required: false
+    default: "NOT_CHECKED"
+  passport-family:
+    description: "Optional plugin | sdk | service-workload."
+    required: false
+  ecz-id:
+    description: "Optional declared ECZ-ID machine Passport reference."
+    required: false
+  report-path:
+    description: "Path for the local JSON evidence report."
+    required: false
+    default: "eczid-release-identity-provenance.json"
+outputs:
+  result-state:
+    description: "OBSERVED, REVIEW_RECOMMENDED or INVALID_INPUT."
+  resolver-url:
+    description: "Public Resolver URL when an ECZ-ID is declared."
+  reason-codes:
+    description: "Deterministic reason-code list."
+  provenance-status:
+    description: "Normalized GitHub-native provenance evidence status."
+  sbom-status:
+    description: "Normalized GitHub-native SBOM evidence status."
+  report-path:
+    description: "Generated local JSON report path."
+runs:
+  using: node24
+  main: dist/index.js
