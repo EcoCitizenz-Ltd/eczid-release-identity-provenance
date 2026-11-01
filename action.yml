@@ -1,5 +1,5 @@
 name: "ECZ-ID Release Identity & Provenance"
-description: "Connect GitHub-native provenance/SBOM verification facts to optional ECZ-ID machine identity without generating attestations or writing truth."
+description: "Connect release identity to GitHub-native provenance and SBOM evidence without replacing attestations."
 author: EcoCitizenz Ltd
 branding:
   icon: shield
