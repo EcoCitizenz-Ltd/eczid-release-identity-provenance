@@ -39,7 +39,7 @@ jobs:
 2. Run it manually with **Run workflow**.
 3. Open the job and review the ECZ-ID Job Summary.
 4. Use the generated local JSON report and outputs below for your own policy or follow-up automation.
-5. If persistent machine identity is useful, [choose the right free ECZ-ID Passport](https://developers.ecocitizenz.com/get-started/free-passport/?utm_source=github&utm_medium=action-readme&utm_campaign=github-actions&utm_content=eczid-release-identity-provenance); identity is optional and does not change the technical result.
+5. If persistent machine identity is useful, [choose the right free ECZ-ID Passport](https://developers.ecocitizenz.com/get-started/free-passport/?utm_source=github&utm_medium=action-readme&utm_campaign=github-actions&utm_content=eczid-release-identity-provenance&ecz_source=github&ecz_surface=eczid-release-identity-provenance&intent=free-passport); identity is optional and does not change the technical result.
 
 ## Minimal Action step
 
@@ -104,7 +104,7 @@ A free Declared Business Passport is the organisation Parent gateway for the sev
 
 When an identity/currentness next step is warranted, ECZ-ID returns at most one neutral route. Payment never changes the technical result.
 
-[Choose the right free Passport →](https://developers.ecocitizenz.com/get-started/free-passport/?utm_source=github&utm_medium=action-readme&utm_campaign=github-actions&utm_content=eczid-release-identity-provenance)
+[Choose the right free Passport →](https://developers.ecocitizenz.com/get-started/free-passport/?utm_source=github&utm_medium=action-readme&utm_campaign=github-actions&utm_content=eczid-release-identity-provenance&ecz_source=github&ecz_surface=eczid-release-identity-provenance&intent=free-passport)
 
 ## Works with GitHub, not against it
 
